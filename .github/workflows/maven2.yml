@@ -30,4 +30,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Integration Maven
-      run: mvn -P testdb clean integration-test
+      run: mvn -P testdb clean verify
